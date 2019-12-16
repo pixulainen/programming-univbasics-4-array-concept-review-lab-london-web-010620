@@ -7,10 +7,10 @@ end
 
 def find_min_value(array)
 new_a = array.sort
-print new_a[0]
+return new_a[0]
 end
 
 def find_min_value(array)
-new_a =  [..array].min
-return new_a.to_i
+new_a= array.sort!
+return new_a[0]
 end
