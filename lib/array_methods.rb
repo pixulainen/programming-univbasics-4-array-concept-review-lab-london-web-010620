@@ -5,8 +5,9 @@ array.length.times do
   end 
 end
 
-def find_max_value(array)
-return [..array].max
+def find_min_value(array)
+new_a = array.sort
+print new_a[0]
 end
 
 def find_min_value(array)
