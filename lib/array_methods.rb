@@ -4,7 +4,6 @@ array.length.times{
   |i| if array[i] == value_to_find
   return i
   end
-    else return nil
 } 
 end
 
