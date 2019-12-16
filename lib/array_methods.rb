@@ -10,5 +10,6 @@ return [..array].max
 end
 
 def find_min_value(array)
-return [..array].min
+new_a =  [..array].min
+return new_a.to_i
 end
